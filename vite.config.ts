@@ -16,7 +16,7 @@ async function getPlugins(mode: string) {
 }
 
 export default defineConfig(async ({ mode }) => ({
-  base: "/",
+  base: "/portfolio/",
   server: {
     host: "::",
     port: 8080,

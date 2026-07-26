@@ -92,8 +92,7 @@ const Contact = () => {
             viewport={{ once: false }}
             transition={{ delay: 0.4 }}
           >
-            Open to internship opportunities, collaborations, and conversations 
-            about development, design, or applied AI.
+            Open to internships across roles, collaborations, and conversations about development, design, robotics, or applied AI.
           </motion.p>
         </motion.div>
 

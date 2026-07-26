@@ -114,7 +114,7 @@ const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3, duration: 0.8 }}
             >
-              Computer Engineering Student
+              CSE Student • 2nd Year B.Tech
             </motion.p>
 
             {/* Decorative line */}
@@ -133,9 +133,9 @@ const Hero = () => {
               transition={{ delay: 1.8, duration: 0.8 }}
             >
               Exploring the intersection of{" "}
-              <span className="text-accent font-medium">product development</span>,{" "}
-              <span className="text-sage font-medium">UI/UX design</span>, and{" "}
-              <span className="text-gold font-medium">applied AI systems</span>.
+              <span className="text-accent font-medium">product thinking</span>,{" "}
+              <span className="text-sage font-medium">design</span>, and{" "}
+              <span className="text-gold font-medium">real-world systems</span>.
             </motion.p>
 
             {/* CTA */}

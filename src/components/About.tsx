@@ -11,19 +11,19 @@ const About = () => {
   const opacity = useTransform(scrollYProgress, [0, 0.2, 0.8, 1], [0, 1, 1, 0]);
 
   const interests = [
-    { text: "Programming & logic development", icon: "⚡" },
-    { text: "Unix/Linux systems & customization", icon: "🐧" },
-    { text: "Application & product development", icon: "🚀" },
-    { text: "UI/UX design as engineering skill", icon: "🎨" },
-    { text: "Machine learning & applied AI", icon: "🤖" },
-    { text: "Photo & video editing", icon: "📸" },
+    { text: "Programming & logic-driven problem solving", icon: "⚡" },
+    { text: "Product design & human-centered thinking", icon: "🧩" },
+    { text: "Robotics & physical systems", icon: "🤖" },
+    { text: "Electronics & DIY builds", icon: "🔧" },
+    { text: "UI/UX design as an engineering skill", icon: "🎨" },
+    { text: "Applied AI and real-world systems", icon: "🧠" },
   ];
 
   const currentlyExploring = [
-    "Linux customization & config workflows",
-    "Building ML/LLM-based systems",
-    "CLI-first tooling & utilities",
-    "Interface usability & structure",
+    "Product design and user-centered experiences",
+    "Robotics and real-world physical systems",
+    "Electronics prototyping and DIY builds",
+    "Polished interfaces that balance form and function",
   ];
 
   const containerVariants = {
@@ -103,28 +103,21 @@ const About = () => {
               className="text-lg md:text-xl leading-relaxed text-foreground/80"
               variants={itemVariants}
             >
-              I am a Computer Engineering diploma student exploring multiple domains 
-              including <span className="text-accent font-medium">programming</span>, 
-              <span className="text-sage font-medium"> Unix systems</span>, 
-              <span className="text-gold font-medium"> UI/UX design</span>, and product-focused 
-              application development.
+              I’m a <span className="text-accent font-medium">Computer Science & Engineering</span> student in my 2nd year of B.Tech at Navrachana University, Vadodara. After completing a diploma in Computer Engineering, I became especially interested in the space where <span className="text-sage font-medium">logic</span> and <span className="text-gold font-medium">design</span> meet.
             </motion.p>
             
             <motion.p 
               className="text-lg leading-relaxed text-foreground/80"
               variants={itemVariants}
             >
-              I prefer working across related disciplines simultaneously, allowing me 
-              to switch context when blocked and return with clearer perspective.
+              What draws me in is the tension between problem-solving and aesthetics: code is rigorous, but building something meaningful often requires care for how it feels, flows, and serves people. That’s why I’m increasingly drawn to <span className="text-accent font-medium">product design</span> and human-centered development.
             </motion.p>
             
             <motion.p 
               className="text-lg leading-relaxed text-foreground/80"
               variants={itemVariants}
             >
-              My primary interest lies in designing usable interfaces, building 
-              user-facing products, and solving real end-user problems—with a growing 
-              curiosity toward systems-level understanding.
+              Outside coursework, I enjoy tinkering with electronics and small DIY projects. I’m also curious about robotics because it brings logic into the messy, physical world, and I’m always looking for ways to connect technical depth with thoughtful experience.
             </motion.p>
 
             {/* Work style card */}
@@ -136,10 +129,7 @@ const About = () => {
                 How I Work
               </div>
               <p className="text-foreground/70 leading-relaxed mt-4">
-                Exploratory and experimental. I learn through reverse engineering, 
-                trial-and-error, documentation, and AI-assisted exploration. 
-                I prefer <span className="text-accent">CLI over GUI</span> for clarity 
-                and maintainability, and thrive in team environments for diverse perspectives.
+                Exploratory and cross-disciplinary. I learn by building, experimenting, and connecting technical work with usability. I’m happiest when a project needs both <span className="text-accent">rigor</span> and <span className="text-sage">taste</span>, and I enjoy bringing different perspectives into the same problem.
               </p>
             </motion.div>
           </motion.div>

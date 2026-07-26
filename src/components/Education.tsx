@@ -10,18 +10,18 @@ const Education = () => {
   });
 
   const goals = [
-    { text: "Pursue higher studies in computer engineering", icon: "🎓" },
-    { text: "Secure internships in development or applied AI", icon: "💼" },
-    { text: "Explore freelancing alongside academic growth", icon: "🚀" },
-    { text: "Strengthen fundamentals while building systems", icon: "⚡" },
+    { text: "Secure internships across development, design, or product roles", icon: "💼" },
+    { text: "Build products that combine strong engineering with thoughtful UX", icon: "🚀" },
+    { text: "Explore robotics and physical systems through hands-on work", icon: "🤖" },
+    { text: "Keep strengthening fundamentals while staying interdisciplinary", icon: "⚡" },
   ];
 
   const coursework = [
-    { name: "Machine Learning & AI", color: "bg-gold" },
-    { name: "Internet of Things (IoT)", color: "bg-sage" },
-    { name: "Cloud Computing", color: "bg-indigo" },
-    { name: "Software Development", color: "bg-coral" },
-    { name: "Java Application Dev", color: "bg-accent" },
+    { name: "Data Structures & Algorithms", color: "bg-gold" },
+    { name: "Software Engineering", color: "bg-sage" },
+    { name: "Machine Learning & AI", color: "bg-indigo" },
+    { name: "Internet of Things (IoT)", color: "bg-coral" },
+    { name: "Cloud Computing", color: "bg-accent" },
   ];
 
   return (
@@ -103,14 +103,44 @@ const Education = () => {
                   viewport={{ once: false }}
                   transition={{ delay: 0.3 }}
                 >
-                  Diploma in Computer Engineering
+                  B.Tech in Computer Science & Engineering
                 </motion.h4>
                 <motion.p 
-                  className="text-muted-foreground mb-6"
+                  className="text-muted-foreground mb-2"
                   initial={{ opacity: 0 }}
                   whileInView={{ opacity: 1 }}
                   viewport={{ once: false }}
                   transition={{ delay: 0.4 }}
+                >
+                  Navrachana University, Vadodara
+                </motion.p>
+                <motion.p 
+                  className="text-sm text-muted-foreground"
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: 1 }}
+                  viewport={{ once: false }}
+                  transition={{ delay: 0.45 }}
+                >
+                  2nd Year • 2026 – Present
+                </motion.p>
+              </div>
+
+              <div className="mb-8">
+                <motion.h4 
+                  className="text-xl md:text-2xl font-heading font-medium mb-2"
+                  initial={{ opacity: 0, x: -20 }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  viewport={{ once: false }}
+                  transition={{ delay: 0.5 }}
+                >
+                  Diploma in Computer Engineering
+                </motion.h4>
+                <motion.p 
+                  className="text-muted-foreground"
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: 1 }}
+                  viewport={{ once: false }}
+                  transition={{ delay: 0.55 }}
                 >
                   Tolani Foundation Polytechnic, Gandhidham
                 </motion.p>
@@ -209,7 +239,7 @@ const Education = () => {
                     Availability
                   </p>
                   <p className="text-foreground font-medium">
-                    ~10+ hours per week for learning & building
+                    Open to internships and collaborative projects
                   </p>
                 </div>
               </div>
